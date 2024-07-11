@@ -1,0 +1,34 @@
+.count-box{
+    background-color: rgb(186, 227, 255);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+    border-radius: 20px;
+}
+.row{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+.count-box i{
+   color:yellow;
+   font-weight: 800;
+
+}
+.purecounter a{
+    color:rgb(250, 38, 38);
+}
+
+#counts{
+     /* Specify the path to your banner image */
+  background-image: url('../../public/images/homescreen.jpg');
+
+  /* Set background properties */
+  background-size: cover; /* Cover the entire element */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-attachment: fixed;
+  /* Other styles to align items vertically in the center */
+  display: flex;
+  align-items: center;
+}

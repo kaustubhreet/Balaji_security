@@ -1,0 +1,107 @@
+/* Styles for AboutSection */
+/* Media queries for responsiveness */
+@media only screen and (max-width: 596px) {
+
+
+.about h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about p {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.about-btn {
+    display: inline-block;
+    background-color: #242323;
+    color: rgb(19, 1, 1);
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 30%;
+}
+
+.about-btn:hover {
+    background-color: #fb0b0b;
+}
+
+.icon-boxes {
+    margin-top: 30px;
+}
+
+.icon-box {
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    padding: 30px 20px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.icon-box i {
+    color:rgb(13, 13, 13);
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.icon-box h4 {
+    color: rgb(13, 13, 13);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.additional-info {
+    margin-top: 30px;
+}
+
+.additional-info p {
+    color: rgb(13, 13, 13);
+    font-size: 16px;
+    line-height: 24px;
+}
+h4{
+    color:rgb(253, 246, 246);
+}
+
+    .about h3 {
+        font-size: 24px;
+    }
+    
+    .about p {
+        font-size: 14px;
+    }
+    
+    .icon-box {
+        padding: 20px;
+    }
+    
+    .icon-box i {
+        font-size: 28px;
+    }
+    
+    .icon-box h4 {
+        font-size: 18px;
+    }
+    
+    .additional-info p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 168px) {
+    .about .content {
+        padding-right:0;
+        padding:30px 30px 30px 0;
+    }
+    
+    .content, .col-xl-7 {
+        width: 100%;
+    }
+}

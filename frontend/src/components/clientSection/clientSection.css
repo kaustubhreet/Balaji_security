@@ -1,0 +1,51 @@
+/* Add this CSS to your stylesheet */
+
+.slick-dots li button:before,.slick-dots li button:after{
+    overflow: hidden;
+    display: none;
+    /* border-color: #f30606;*/
+ }
+
+ 
+
+  .slick-dots li button {
+    width: 20px; /* Increase the width of the dots */
+    height: 20px; /* Increase the height of the dots */
+    border-radius: 50%;
+    background-color: #f5eded;
+    border: 2px solid red;
+    overflow: hidden;
+  }
+  
+  .slick-dots li.slick-active button {
+    
+    background-color: #fd0404;
+  }
+
+  @media only screen and (max-width: 590px) {
+    .slick-dots li button:before,.slick-dots li button:after{
+      overflow: hidden;
+      display: none;
+      /* border-color: #f30606;*/
+   }
+  
+  
+    .slick-dots li button {
+      width: 10px; /* Increase the width of the dots */
+      height: 10px; /* Increase the height of the dots */
+      border-radius: 50%;
+      background-color: #f5eded;
+      border: 1px solid red;
+      overflow: hidden;
+    }
+    
+    .slick-dots li.slick-active button {
+      
+      background-color: #fd0404;
+    }
+  
+  
+
+  }
+
+  

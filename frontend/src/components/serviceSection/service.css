@@ -1,0 +1,46 @@
+.serv{
+display: flex;
+position: relative;
+padding: 40px 25px;
+flex-direction: column;
+
+}
+
+.services{
+/*background-color: black;*/
+color:white;
+border-color: antiquewhite;
+border-width: 2px solid;
+ /* Specify the path to your banner image */
+ background-image: url("https://img.freepik.com/premium-photo/growth-money-arrow-success-financial-business-coin-concept-investment-earnings-background-with-profit-graph-finance-development-increase-economic-market-chart-digital-stock-currency-strategy_79161-2472.jpg" );
+
+ /* Set background properties */
+ background-size: cover; /* Cover the entire element */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ 
+ /* Other styles to align items vertically in the center */
+ display: flex;
+ align-items: center;
+
+}
+.section-title{
+text-decoration: none;
+
+}
+a:link{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: bolder;
+  }
+
+  a:active {
+    color: rgb(255, 0, 21);
+    background-color: transparent;
+    text-decoration: underline;
+  }

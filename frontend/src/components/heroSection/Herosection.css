@@ -1,0 +1,17 @@
+#hero {
+    /* Specify the path to your banner image */
+    background-image: url('../../../public/images/homescreen.jpg');
+  
+    /* Set background properties */
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    
+    /* Other styles to align items vertically in the center */
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color:white;
+    padding-bottom: 4.7rem;
+  }
+  
